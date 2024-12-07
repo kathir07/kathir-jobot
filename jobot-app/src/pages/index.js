@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Head from "next/head";
 import Markdown from 'react-markdown'
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
   }
   return (
    <>
+   <Head>Jobot - Your Friendly Neighborhood AI</Head>
    <div className="flex flex-col h-screen">
 
     {/* Navigation Bar */}
